@@ -39,16 +39,28 @@ mastodon_link                             :
 features                                  :
 
   - title                                 : 智能
-    description                           : 使用人工智能技术，自动生的菜谱，满足用户的口味和饮食需求。
+    description                           : 使用人工智能技术，自动生的菜谱，满足用户的口味和饮食需求, 让烹饪变得更加轻松和有趣。
     fontawesome_icon_name                 : magic
     
   - title                                 : 简单易用
-    description                           : 用户友好的界面，简单的操作流程，让用户轻松上手，快速生成菜谱。
+    description                           : 用户友好的界面，简单的操作流程，让用户轻松上手，快速生成菜谱，无需复杂的设置和操作。
     fontawesome_icon_name                 : mobile
 
   - title                                 : 多样化的菜谱选择
-    description                           : 提供丰富多样的菜谱选择，满足不同用户的口味和饮食需求。
+    description                           : 提供丰富多样的菜谱选择，满足不同用户的口味和饮食需求，无论是素食者、肉食者还是特殊饮食需求者，都能找到适合自己的菜谱。
     fontawesome_icon_name                 : play-circle
+
+  - title                                 : 烹饪模式
+    description                           : 提供方便的烹饪模式，倒计时工具，备料计算工具等，帮助用户更好地准备和烹饪菜肴。
+    fontawesome_icon_name                 : utensils
+
+  - title                                : 精美界面
+    description                           : 设计精美的界面，提供愉悦的用户体验，让用户在使用过程中感到舒适和愉快。
+    fontawesome_icon_name                 : palette
+
+  - title                                 : 永久存储
+    description                           : 用户可以永久存储生成的菜谱，随时查看和使用，无需担心数据丢失。
+    fontawesome_icon_name                 : save
 
   # - title                                 : Automatic Icon and Metadata
   #   description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
