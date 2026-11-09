@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="zh-CN">
 
 {% include head.html %}
 
@@ -21,7 +21,9 @@
                             </video>
                         </div>  
                         
-                        <img class="iphoneScreen hidden" src="" alt="">
+                        {% if site.app_screenshot %}
+                        <img class="iphoneScreen" src="{{ site.app_screenshot | relative_url }}" alt="{{ site.app_name }}应用界面：菜谱与烹饪步骤">
+                        {% endif %}
 
                         {% include screencontent.html %}
 
@@ -35,15 +37,13 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <img class="appIconLarge" src="{{ site.app_icon | relative_url }}">
+                            <img class="appIconLarge" src="{{ site.app_icon | relative_url }}" alt="{{ site.app_name }}应用图标">
                         </div>
                         <div class="appNamePriceContainer">
                             <h1 class="appName">
                                 {{ site.app_name }}
                             </h1>
-                            <h2 class="appPrice">
-                                {{ site.app_price }}
-                            </h2>
+                            <p class="appTagline">{{ site.app_tagline }}</p>
                         </div>
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
@@ -54,7 +54,7 @@
                             {% if site.playstore_link %}
                                 <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
                             {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="{{ '/assets/appstore.png' | relative_url }}" alt="在 App Store 下载鲜厨派"></a>
                         </div>
                     </div>
                     {% include features.html %}

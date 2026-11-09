@@ -121,7 +121,8 @@ header {
 	}
 
 	.logo > p {
-		display: none;
+		display: flex;
+		font-size: 2rem;
 	}
 	
 } 
@@ -282,6 +283,16 @@ nav > ul li a:active {
 
 .appName {
 	color: $app-title-color;
+	font-size: clamp(4rem, 5vw, 5.6rem);
+	line-height: 1.2;
+	font-weight: 800;
+}
+
+.appTagline {
+	color: $app-description-color;
+	font-size: 2rem;
+	line-height: 1.5;
+	margin-top: 14px;
 }
 
 .appPrice {

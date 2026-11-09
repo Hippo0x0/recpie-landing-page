@@ -1,20 +1,21 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : 鲜厨派 - AI 智能菜谱应用                  # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 6759188997                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : cn                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://apps.apple.com/cn/app/id6759188997 # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 # presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_screenshot                            : assets/screenshot/screenshot.png                                           # Enter paths to screenshot images (e.g. "assets/screenshot1.png").  Automatically populates if not set and if iOS app ID is set
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : 鲜厨派                                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : 菜谱生成,游刃有余
+app_description                           : 鲜厨派是一款 AI 智能菜谱应用，帮助你生成菜谱、查看烹饪步骤并保存喜欢的菜谱。
+app_tagline                               : 菜谱生成，游刃有余
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -22,7 +23,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : 鲜厨派                               
-your_link                                 : http://hippo0x0.github.io/recpie-landing-page/                    
+your_link                                 : https://hippo0x0.github.io/recpie-landing-page/
 your_city                                 : 北京                                
 email_address                             : hippo0x0@gmail.com
 linkedin_username                         :                                           
@@ -40,7 +41,7 @@ mastodon_link                             :
 features                                  :
 
   - title                                 : 智能
-    description                           : 使用人工智能技术，自动生的菜谱，满足用户的口味和饮食需求, 让烹饪变得更加轻松和有趣。
+    description                           : 使用人工智能技术，自动生成菜谱，满足用户的口味和饮食需求, 让烹饪变得更加轻松和有趣。
     fontawesome_icon_name                 : magic
     
   - title                                 : 简单易用
